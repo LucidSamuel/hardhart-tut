@@ -4,7 +4,7 @@ import hre from "hardhat";
 async function main() {
   const currentTimestampInSeconds = Math.round(Date.now() / 1000);     
   const currentTimestampInSeconds;
-
+  
   const unlockTime = BigInt(currentTimestampInSeconds + 60); 
    
   const lockedAmount = parseEther("0.001");
