@@ -6,7 +6,7 @@ async function main() {
   const currentTimestampInSeconds;
 
   const unlockTime = BigInt(currentTimestampInSeconds + 60); 
-
+   
   const lockedAmount = parseEther("0.001");
 
   const lock = await hre.viem.deployContract("Lock", [unlockTime], {   
