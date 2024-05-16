@@ -9,7 +9,7 @@ async function main() {
    
   const lockedAmount = parseEther("0.001");
 
-  const lock = await hre.viem.deployContract("Lock", [unlockTime], {   
+  const lock = await hre.viem.deployContract("Lock", [unlockTime], {      
     value: lockedAmount, 
   });
   
