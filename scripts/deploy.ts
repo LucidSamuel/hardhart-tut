@@ -14,7 +14,7 @@ async function main() {
   console.log(  
     `Lock with ${formatEther(    
       lockedAmount
-    )}ETH and unlock timestamp ${unlockTime} deployed to ${lock.address}`
+    )}ETH and unlock timestamp ${unlockTime} deployed to ${lock.address}` 
   );
 
 
