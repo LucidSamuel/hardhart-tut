@@ -11,7 +11,7 @@ async function main() {
 
   const lock = await hre.viem.deployContract("Lock", [unlockTime], {      
     value: lockedAmount,  input: 24,
-  });
+  }); 
 
   
   console.log(  
