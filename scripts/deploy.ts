@@ -12,6 +12,7 @@ async function main() {
   const lock = await hre.viem.deployContract("Lock", [unlockTime], {      
     value: lockedAmount, 
   });
+
   
   console.log(  
     `Lock with ${formatEther(    
